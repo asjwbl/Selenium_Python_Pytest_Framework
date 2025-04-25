@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Playwright
+playwright-report/
+test-results/
+*.log
+*.trace
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MyPy, coverage, and profiling
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+profiler.log
+
+# Mac & system files
+.DS_Store
+Thumbs.db
+
+# GitHub and IntelliJ config (if applicable)
+.idea/
+*.iml
+
+# Python tooling
+poetry.lock
+Pipfile.lock
+
+# Environment variables or secrets
+*.env
+.env.*
